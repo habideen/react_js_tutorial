@@ -1,6 +1,7 @@
 import './App.css';
-import Greeting from './Greeting';
-import Counter from './Counter';
+import Greeting from './components/Greeting';
+import Counter from './components/Counter';
+import Form from './components/Form';
 
 function App() {
   const name = "Habideen Ibrahim";
@@ -14,6 +15,7 @@ function App() {
       
       <Greeting name="Habideen from props" age="23" />
       <Counter />
+      <Form />
     </div>  
   );
 }
