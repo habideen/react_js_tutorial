@@ -1,4 +1,5 @@
 import './App.css';
+import Greeting from './Greeting';
 
 function App() {
   const name = "Habideen Ibrahim";
@@ -9,6 +10,8 @@ function App() {
       <h1>{greeting}</h1>
       <p>Welcome to learning JSX in React.</p>
       <p>The sum of 10 and 20 is {10 + 20}</p>
+      
+      <Greeting name="Habideen from props" age="23" />
     </div>  
   );
 }
