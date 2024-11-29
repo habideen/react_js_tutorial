@@ -1,11 +1,15 @@
 import './App.css';
 
 function App() {
+  const name = "Habideen Ibrahim";
+  const greeting = "Hello, " + name + "!";
+
   return (
     <div>
-      <h1>Hello, React!</h1>
-      <p>This is your first React app.</p>
-    </div>
+      <h1>{greeting}</h1>
+      <p>Welcome to learning JSX in React.</p>
+      <p>The sum of 10 and 20 is {10 + 20}</p>
+    </div>  
   );
 }
 
