@@ -4,6 +4,7 @@ import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
 import Form from "./components/Form";
 import CheckAuth from "./components/CheckAuth";
+import ItemMap from "./components/ItemMap";
 
 function content() {
   const name = "Habideen Ibrahim";
@@ -19,6 +20,7 @@ function content() {
       <Greeting name="Habideen from props" age="23" />
       <Counter />
       <Form />
+      <ItemMap />
     </div>
   );
 }
