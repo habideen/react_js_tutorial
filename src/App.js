@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import SimpleForm from "./components/form/SimpleForm";
+import MultipleInput from "./components/form/MultipleInput";
+// import SimpleForm from "./components/form/SimpleForm";
 // import Greeting from "./components/Greeting";
 // import Counter from "./components/Counter";
 // import Form from "./components/form/FormSubmission";
@@ -21,8 +22,9 @@ function content() {
       <Greeting name="Habideen from props" age="23" />
       <Counter />
       <FormSubmission />
-      <ItemMap /> */}
-      <SimpleForm />
+      <ItemMap />
+      <SimpleForm /> */}
+      <MultipleInput />
     </div>
   );
 }
