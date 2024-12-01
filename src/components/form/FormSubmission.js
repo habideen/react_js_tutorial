@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Form() {
+function FormSubmission() {
   const [inputValue, setInputValue] = useState('');
 
   const handleChange = (event) => {
@@ -26,4 +26,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default FormSubmission;
