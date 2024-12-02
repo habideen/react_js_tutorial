@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import UncontrolledForm from "./components/form/UncontrolledForm";
 // import MultipleInput from "./components/form/MultipleInput";
-import FormValidatin from "./components/form/FormValidation";
+// import FormValidatin from "./components/form/FormValidation";
 // import SimpleForm from "./components/form/SimpleForm";
 // import Greeting from "./components/Greeting";
 // import Counter from "./components/Counter";
@@ -25,8 +26,9 @@ function content() {
       <FormSubmission />
       <ItemMap />
       <SimpleForm />
-      <MultipleInput /> */}
-      <FormValidatin />
+      <MultipleInput />
+      <FormValidatin /> */}
+      <UncontrolledForm />
     </div>
   );
 }
