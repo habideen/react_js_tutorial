@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import MultipleInput from "./components/form/MultipleInput";
+// import MultipleInput from "./components/form/MultipleInput";
+import FormValidatin from "./components/form/FormValidation";
 // import SimpleForm from "./components/form/SimpleForm";
 // import Greeting from "./components/Greeting";
 // import Counter from "./components/Counter";
@@ -23,8 +24,9 @@ function content() {
       <Counter />
       <FormSubmission />
       <ItemMap />
-      <SimpleForm /> */}
-      <MultipleInput />
+      <SimpleForm />
+      <MultipleInput /> */}
+      <FormValidatin />
     </div>
   );
 }
