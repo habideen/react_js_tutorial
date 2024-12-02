@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import InlineStyle from "./components/style/Inline";
+// import InlineStyle from "./components/style/Inline";
+import ExternalCSS from "./components/style/ExternalCSS";
 // import UncontrolledForm from "./components/form/UncontrolledForm";
 // import MultipleFormValidatin from "./components/form/MultipleFormValidation";
 // import MultipleInput from "./components/form/MultipleInput";
@@ -31,8 +32,9 @@ function content() {
       <MultipleInput />
       <FormValidatin />
       <UncontrolledForm />
-      <MultipleFormValidatin /> */}
-      <InlineStyle />
+      <MultipleFormValidatin />
+      <InlineStyle /> */}
+      <ExternalCSS />
     </div>
   );
 }
