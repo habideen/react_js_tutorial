@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import StyledComponent from "./components/style/StyledComponent";
+import LifeCycle from "./components/lifecycle/LifeCycle";
 // import InlineStyle from "./components/style/Inline";
 // import ExternalCSS from "./components/style/ExternalCSS";
 // import UncontrolledForm from "./components/form/UncontrolledForm";
@@ -35,8 +36,9 @@ function content() {
       <UncontrolledForm />
       <MultipleFormValidatin />
       <InlineStyle />
-      <ExternalCSS /> */}
-      <StyledComponent />
+      <ExternalCSS />
+      <StyledComponent /> */}
+      <LifeCycle />
     </div>
   );
 }
