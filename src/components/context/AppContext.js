@@ -1,9 +1,17 @@
 import React, { useContext } from "react";
 import ThemeContext from "./CreateSimple";
 
+// function Toolbar() {
+//   const theme = useContext(ThemeContext);
+//   return <div>Current theme: {theme}</div>;
+// }
+
 function Toolbar() {
-  const theme = useContext(ThemeContext);
-  return <div>Current theme: {theme}</div>;
+  return (
+    <ThemeContext.Consumer>
+      {(theme) => <div>Current theme: {theme}</div>}
+    </ThemeContext.Consumer>
+  );
 }
 
 function AppContext() {
