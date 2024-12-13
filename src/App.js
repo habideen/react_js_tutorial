@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import UserProfile from "./components/context/UserProfile";
 // import StyledComponent from "./components/style/StyledComponent";
 // import LifeCycle from "./components/lifecycle/LifeCycle";
 // import AppContext from "./components/context/AppContext";
-import ContextUpdateState from "./components/context/ContextUpdateState";
+// import ContextUpdateState from "./components/context/ContextUpdateState";
 // import InlineStyle from "./components/style/Inline";
 // import ExternalCSS from "./components/style/ExternalCSS";
 // import UncontrolledForm from "./components/form/UncontrolledForm";
@@ -42,7 +43,8 @@ function content() {
       <StyledComponent /> */}
       {/* <LifeCycle /> */}
       {/* <AppContext /> */}
-      <ContextUpdateState />
+      {/* <ContextUpdateState /> */}
+      <UserProfile />
     </div>
   );
 }
