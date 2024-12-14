@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import "./App.css";
-import UserProfile from "./components/context/UserProfile";
+import SimpleRoute from "./components/Route/SimpleRoute";
+// import "./App.css";
+// import UserProfile from "./components/context/UserProfile";
 // import StyledComponent from "./components/style/StyledComponent";
 // import LifeCycle from "./components/lifecycle/LifeCycle";
 // import AppContext from "./components/context/AppContext";
@@ -44,7 +45,8 @@ function content() {
       {/* <LifeCycle /> */}
       {/* <AppContext /> */}
       {/* <ContextUpdateState /> */}
-      <UserProfile />
+      {/* <UserProfile /> */}
+      <SimpleRoute />
     </div>
   );
 }
