@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import RouteParam from "./components/Route/RouteParam";
+import NestedRoute from "./components/Route/NestedRoute";
+// import RouteParam from "./components/Route/RouteParam";
 // import LinkRoute from "./components/Route/LinkRoute";
 // import SimpleRoute from "./components/Route/SimpleRoute";
 // import "./App.css";
@@ -50,7 +51,8 @@ function content() {
       {/* <UserProfile /> */}
       {/* <SimpleRoute /> */}
       {/* <LinkRoute /> */}
-      <RouteParam />
+      {/* <RouteParam /> */}
+      <NestedRoute />
     </div>
   );
 }
