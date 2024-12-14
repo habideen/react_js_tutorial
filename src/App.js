@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import LinkRoute from "./components/Route/LinkRoute";
+import RouteParam from "./components/Route/RouteParam";
+// import LinkRoute from "./components/Route/LinkRoute";
 // import SimpleRoute from "./components/Route/SimpleRoute";
 // import "./App.css";
 // import UserProfile from "./components/context/UserProfile";
@@ -48,7 +49,8 @@ function content() {
       {/* <ContextUpdateState /> */}
       {/* <UserProfile /> */}
       {/* <SimpleRoute /> */}
-      <LinkRoute />
+      {/* <LinkRoute /> */}
+      <RouteParam />
     </div>
   );
 }
