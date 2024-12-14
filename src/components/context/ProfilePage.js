@@ -7,7 +7,7 @@ function ProfilePage() {
   const {isDarkMode, toggleTheme} = useContext(ThemeContext);
 
   const themeStyles = {
-    backgroundColor: isDarkMode ? "#333" : "#fff",
+    backgroundColor: isDarkMode ? "#333" : "#eee",
     color: isDarkMode ? "#fff" : "#000",
     padding: "20px",
     borderRadius: "10px",
