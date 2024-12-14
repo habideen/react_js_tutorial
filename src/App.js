@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import UseRenderCounter from "./components/state/UseRenderCounter";
+import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
+// import UseRenderCounter from "./components/state/UseRenderCounter";
 // import DerivedState from "./components/state/DerivedState";
 // import CounterAppState from "./components/state/CounterAppState";
 // import UseNavigateRoute from "./components/Route/UseNavigateRoute";
@@ -60,7 +61,8 @@ function content() {
       {/* <UseNavigateRoute /> */}
       {/* <CounterAppState /> */}
       {/* <DerivedState /> */}
-      <UseRenderCounter />
+      {/* <UseRenderCounter /> */}
+      <UseRenderContextTheme />
     </div>
   );
 }
