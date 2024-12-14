@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import UseNavigateRoute from "./components/Route/UseNavigateRoute";
+import CounterAppState from "./components/state/CounterAppState";
+// import UseNavigateRoute from "./components/Route/UseNavigateRoute";
 // import NestedRoute from "./components/Route/NestedRoute";
 // import RouteParam from "./components/Route/RouteParam";
 // import LinkRoute from "./components/Route/LinkRoute";
@@ -54,7 +55,8 @@ function content() {
       {/* <LinkRoute /> */}
       {/* <RouteParam /> */}
       {/* <NestedRoute /> */}
-      <UseNavigateRoute />
+      {/* <UseNavigateRoute /> */}
+      <CounterAppState />
     </div>
   );
 }
