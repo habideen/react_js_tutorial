@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
-import CounterUseState from "./components/assignment/CounterUseCase";
+import ShoppingCart from "./components/assignment/ShoppingCart";
+// import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
+// import CounterUseState from "./components/assignment/CounterUseCase";
 // import UseRenderCounter from "./components/state/UseRenderCounter";
 // import DerivedState from "./components/state/DerivedState";
 // import CounterAppState from "./components/state/CounterAppState";
@@ -64,7 +65,8 @@ function content() {
       {/* <DerivedState /> */}
       {/* <UseRenderCounter /> */}
       {/* <UseRenderContextTheme /> */}
-      <CounterUseState />
+      {/* <CounterUseState /> */}
+      <ShoppingCart />
     </div>
   );
 }
