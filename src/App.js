@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import ShoppingCart from "./components/assignment/ShoppingCart";
+import ReactMemo from "./components/optimization/ReactMemo";
+// import ShoppingCart from "./components/assignment/ShoppingCart";
 // import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
 // import CounterUseState from "./components/assignment/CounterUseCase";
 // import UseRenderCounter from "./components/state/UseRenderCounter";
@@ -66,7 +67,8 @@ function content() {
       {/* <UseRenderCounter /> */}
       {/* <UseRenderContextTheme /> */}
       {/* <CounterUseState /> */}
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
+      <ReactMemo />
     </div>
   );
 }
