@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
+import CounterUseState from "./components/assignment/CounterUseCase";
 // import UseRenderCounter from "./components/state/UseRenderCounter";
 // import DerivedState from "./components/state/DerivedState";
 // import CounterAppState from "./components/state/CounterAppState";
@@ -62,7 +63,8 @@ function content() {
       {/* <CounterAppState /> */}
       {/* <DerivedState /> */}
       {/* <UseRenderCounter /> */}
-      <UseRenderContextTheme />
+      {/* <UseRenderContextTheme /> */}
+      <CounterUseState />
     </div>
   );
 }
