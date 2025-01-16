@@ -9,7 +9,7 @@ function ExpensiveCalculation({ num }) {
   return <p>Result: {result}</p>;
 }
 
-function UseMemoUseCallback() {
+function UseMemo() {
   const [number, setNumber] = useState(0);
 
   return (
@@ -25,4 +25,4 @@ function UseMemoUseCallback() {
   );
 }
 
-export default UseMemoUseCallback;
+export default UseMemo;

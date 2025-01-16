@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import UseMemoUseCallback from "./components/optimization/UseMemoUseCallback";
+import UseMemo from "./components/optimization/UseMemo";
 // import LazyComponentApp from "./components/optimization/LazyComponent";
 // import ReactMemo from "./components/optimization/ReactMemo";
 // import ShoppingCart from "./components/assignment/ShoppingCart";
@@ -72,7 +72,7 @@ function content() {
       {/* <ShoppingCart /> */}
       {/* <ReactMemo /> */}
       {/* <LazyComponentApp /> */}
-      <UseMemoUseCallback />
+      <UseMemo />
     </div>
   );
 }
