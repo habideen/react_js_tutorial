@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import LazyComponentApp from "./components/optimization/LazyComponent";
+import UseMemoUseCallback from "./components/optimization/UseMemoUseCallback";
+// import LazyComponentApp from "./components/optimization/LazyComponent";
 // import ReactMemo from "./components/optimization/ReactMemo";
 // import ShoppingCart from "./components/assignment/ShoppingCart";
 // import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
@@ -70,7 +71,8 @@ function content() {
       {/* <CounterUseState /> */}
       {/* <ShoppingCart /> */}
       {/* <ReactMemo /> */}
-      <LazyComponentApp />
+      {/* <LazyComponentApp /> */}
+      <UseMemoUseCallback />
     </div>
   );
 }
