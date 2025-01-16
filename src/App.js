@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import ReactMemo from "./components/optimization/ReactMemo";
+import LazyComponentApp from "./components/optimization/LazyComponent";
+// import ReactMemo from "./components/optimization/ReactMemo";
 // import ShoppingCart from "./components/assignment/ShoppingCart";
 // import UseRenderContextTheme from "./components/state/UseRenderContextTheme";
 // import CounterUseState from "./components/assignment/CounterUseCase";
@@ -36,23 +37,23 @@ function content() {
 
   return (
     <div>
-      {/* <CheckAuth />
-      <h1>{greeting}</h1>
-      <p>Welcome to learning JSX in React.</p>
-      <p>The sum of 10 and 20 is {10 + 20}</p>
+      {/* <CheckAuth /> */}
+      {/* <h1>{greeting}</h1> */}
+      {/* <p>Welcome to learning JSX in React.</p> */}
+      {/* <p>The sum of 10 and 20 is {10 + 20}</p> */}
 
-      <Greeting name="Habideen from props" age="23" />
-      <Counter />
-      <FormSubmission />
-      <ItemMap />
-      <SimpleForm />
-      <MultipleInput />
-      <FormValidatin />
-      <UncontrolledForm />
-      <MultipleFormValidatin />
-      <InlineStyle />
-      <ExternalCSS />
-      <StyledComponent /> */}
+      {/* <Greeting name="Habideen from props" age="23" /> */}
+      {/* <Counter /> */}
+      {/* <FormSubmission /> */}
+      {/* <ItemMap /> */}
+      {/* <SimpleForm /> */}
+      {/* <MultipleInput /> */}
+      {/* <FormValidatin /> */}
+      {/* <UncontrolledForm /> */}
+      {/* <MultipleFormValidatin /> */}
+      {/* <InlineStyle /> */}
+      {/* <ExternalCSS /> */}
+      {/* <StyledComponent /> */}
       {/* <LifeCycle /> */}
       {/* <AppContext /> */}
       {/* <ContextUpdateState /> */}
@@ -68,7 +69,8 @@ function content() {
       {/* <UseRenderContextTheme /> */}
       {/* <CounterUseState /> */}
       {/* <ShoppingCart /> */}
-      <ReactMemo />
+      {/* <ReactMemo /> */}
+      <LazyComponentApp />
     </div>
   );
 }
