@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import UseMemo from "./components/optimization/UseMemo";
+import UseCallback from "./components/optimization/UseCallback";
 // import LazyComponentApp from "./components/optimization/LazyComponent";
 // import ReactMemo from "./components/optimization/ReactMemo";
 // import ShoppingCart from "./components/assignment/ShoppingCart";
@@ -73,6 +74,7 @@ function content() {
       {/* <ReactMemo /> */}
       {/* <LazyComponentApp /> */}
       <UseMemo />
+      <UseCallback />
     </div>
   );
 }

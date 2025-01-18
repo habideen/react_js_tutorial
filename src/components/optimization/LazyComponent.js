@@ -1,6 +1,6 @@
-import React, { Suspense } from 'react';
+import React, { Suspense } from "react";
 
-const LazyComponent = React.lazy(() => import('./LazyComponent'));
+const LazyComponent = React.lazy(() => import("./LazyComponent"));
 
 function LazyComponentApp() {
   return (
